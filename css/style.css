@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(243, 237, 237);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: rgb(117, 117, 117);
+    color: rgb(250, 242, 242);
+}
+.vidbg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: 1;
+    }
+.article{
+    position: fixed;
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    margin-top: 27.5vh;
+    padding: 2.5vw;
+    opacity: 0.65;
+}
+.links a
+{
+margin-left: 1vw;
+
+}
+
+ @media screen and (max-width: 600px){
+    .getitle{
+        background-color: rgb(46, 43, 43);
+        padding: 1vw;
+       
+    }
+    .links{
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px opx rgb(70, 70, 70);
+        z-index: 10;
+        background-color: rgb(92, 91, 91);
+    }
+    .links a{
+        color: rgb(240, 237, 237);
+       padding-top: 1vh;
+       padding-bottom: 1vh;
+       display:block;
+       transition: .1s
+
+    }
+    .links a:hover{
+        background-color: rgb(34, 34, 34);
+    }
+    nav:hover .links{ display: block;}
+    nav:hover .pagetitle{background-color: rgb(78, 78, 78);}
+  }
+ .banner{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    margin-top: 10vw;
+    background-color: rgba(180, 170, 170, 0.41);
+    text-shadow: 5px 2px rgba(153, 161, 153, 0.474);
+    padding:  5px;
+}
+
+ 
